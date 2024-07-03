@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/scss/main.css">
+  
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Salsa App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
+            </li>
+            <li class="nav-item" data-show="disconnected">
+              <a class="nav-link" href="/signin">Signin</a>
+            </li>
+            <li class="nav-item" data-show="disconnected">
+              <a class="nav-link" href="/signup">Signup</a>
+            </li>
+            <li class="nav-item" data-show="connected">
+              <button class="nav-link" id="signoutBtn">Déconnexion</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Les cours
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/debutant">Cours débutant</a></li>
+                <li><a class="dropdown-item" href="/inter">Cours intermédiaire</a></li>
+                <li><a class="dropdown-item" href="/avance">Cours avancé</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="main-page" >
+    
+  </main>
+  <footer id="backgroundhome" class="pt-5 bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center text text-white">
+          <p>&copy; 2021 La Salsa</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="module" src="/Router/router.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
