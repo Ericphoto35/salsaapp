@@ -1,0 +1,25 @@
+$primary: #906427;
+$secondary: #B6AC97;
+$dark:#392C1E;
+$black:  #292222;
+$font-family-sans-serif: "Montserrat", sans-serif !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+#backgroundhome {
+    background-color: black;
+}
+
+.form-signup {
+    max-width: 330px;
+    padding: 1rem;
+}
+
+.form-contact {
+    max-width: 330px;
+    padding: 1rem;
+}
